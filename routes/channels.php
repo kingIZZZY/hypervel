@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use LaravelHyperf\Support\Facades\Broadcast;
+use Hypervel\Support\Facades\Broadcast;
 
 /*
 |--------------------------------------------------------------------------

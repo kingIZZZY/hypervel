@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace App\Providers;
 
-use LaravelHyperf\Foundation\Support\Providers\RouteServiceProvider as BaseServiceProvider;
-use LaravelHyperf\Support\Facades\Route;
+use Hypervel\Foundation\Support\Providers\RouteServiceProvider as BaseServiceProvider;
+use Hypervel\Support\Facades\Route;
 
 class RouteServiceProvider extends BaseServiceProvider
 {

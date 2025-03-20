@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Http;
 
-use LaravelHyperf\Foundation\Http\Kernel as HttpKernel;
+use Hypervel\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
 {
@@ -27,16 +27,16 @@ class Kernel extends HttpKernel
      */
     protected array $middlewareGroups = [
         'web' => [
-            // \LaravelHyperf\Router\Middleware\SubstituteBindings::class,
-            // \LaravelHyperf\Cookie\Middleware\AddQueuedCookiesToResponse::class,
-            // \LaravelHyperf\Session\Middleware\StartSession::class,
-            // \LaravelHyperf\View\Middleware\ShareErrorsFromSession::class,
+            // \Hypervel\Router\Middleware\SubstituteBindings::class,
+            // \Hypervel\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+            // \Hypervel\Session\Middleware\StartSession::class,
+            // \Hypervel\View\Middleware\ShareErrorsFromSession::class,
             // \App\Http\Middleware\VerifyCsrfToken::class,
         ],
 
         'api' => [
             // 'throttle:60,1,api',
-            // \LaravelHyperf\Router\Middleware\SubstituteBindings::class,
+            // \Hypervel\Router\Middleware\SubstituteBindings::class,
         ],
     ];
 
@@ -49,9 +49,9 @@ class Kernel extends HttpKernel
      */
     protected array $middlewareAliases = [
         'auth' => \App\Http\Middleware\Authenticate::class,
-        'can' => \LaravelHyperf\Auth\Middleware\Authorize::class,
-        'throttle' => \LaravelHyperf\Router\Middleware\ThrottleRequests::class,
-        'bindings' => \LaravelHyperf\Router\Middleware\SubstituteBindings::class,
+        'can' => \Hypervel\Auth\Middleware\Authorize::class,
+        'throttle' => \Hypervel\Router\Middleware\ThrottleRequests::class,
+        'bindings' => \Hypervel\Router\Middleware\SubstituteBindings::class,
         'signed' => \App\Http\Middleware\ValidateSignature::class,
     ];
 
@@ -63,10 +63,10 @@ class Kernel extends HttpKernel
      * @var string[]
      */
     protected array $middlewarePriority = [
-        // \LaravelHyperf\Router\Middleware\ThrottleRequests::class,
-        // \LaravelHyperf\Router\Middleware\SubstituteBindings::class,
-        // \LaravelHyperf\Session\Middleware\StartSession::class,
-        // \LaravelHyperf\View\Middleware\ShareErrorsFromSession::class,
+        // \Hypervel\Router\Middleware\ThrottleRequests::class,
+        // \Hypervel\Router\Middleware\SubstituteBindings::class,
+        // \Hypervel\Session\Middleware\StartSession::class,
+        // \Hypervel\View\Middleware\ShareErrorsFromSession::class,
         // \App\Http\Middleware\VerifyCsrfToken::class,
     ];
 }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use LaravelHyperf\Support\ServiceProvider;
+use Hypervel\Support\ServiceProvider;
 use Psr\Log\LogLevel;
 
 return [
@@ -17,7 +17,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel Hyperf'),
+    'name' => env('APP_NAME', 'Hypervel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -167,41 +167,41 @@ return [
     ])->toArray(),
 
     'aliases' => [
-        'App' => LaravelHyperf\Support\Facades\App::class,
-        'Artisan' => LaravelHyperf\Support\Facades\Artisan::class,
-        'Auth' => LaravelHyperf\Support\Facades\Auth::class,
-        'Blade' => LaravelHyperf\Support\Facades\Blade::class,
-        'Broadcast' => LaravelHyperf\Support\Facades\Broadcast::class,
-        'Bus' => LaravelHyperf\Support\Facades\Bus::class,
-        'Cache' => LaravelHyperf\Support\Facades\Cache::class,
-        'Config' => LaravelHyperf\Support\Facades\Config::class,
-        'Cookie' => LaravelHyperf\Support\Facades\Cookie::class,
-        'Crypt' => LaravelHyperf\Support\Facades\Crypt::class,
-        'Date' => LaravelHyperf\Support\Facades\Date::class,
-        'DB' => LaravelHyperf\Support\Facades\DB::class,
-        'Environment' => LaravelHyperf\Support\Facades\Environment::class,
-        'Event' => LaravelHyperf\Support\Facades\Event::class,
-        'File' => LaravelHyperf\Support\Facades\File::class,
-        'Gate' => LaravelHyperf\Support\Facades\Gate::class,
-        'Hash' => LaravelHyperf\Support\Facades\Hash::class,
-        'Http' => LaravelHyperf\Support\Facades\Http::class,
-        'JWT' => LaravelHyperf\Support\Facades\JWT::class,
-        'Lang' => LaravelHyperf\Support\Facades\Lang::class,
-        'Log' => LaravelHyperf\Support\Facades\Log::class,
-        'Mail' => LaravelHyperf\Support\Facades\Mail::class,
-        'Notification' => LaravelHyperf\Support\Facades\Notification::class,
-        'Process' => LaravelHyperf\Support\Facades\Process::class,
-        'Queue' => LaravelHyperf\Support\Facades\Queue::class,
-        'RateLimiter' => LaravelHyperf\Support\Facades\RateLimiter::class,
-        'Redis' => LaravelHyperf\Support\Facades\Redis::class,
-        'Request' => LaravelHyperf\Support\Facades\Request::class,
-        'Response' => LaravelHyperf\Support\Facades\Response::class,
-        'Route' => LaravelHyperf\Support\Facades\Route::class,
-        'Schedule' => LaravelHyperf\Support\Facades\Schedule::class,
-        'Session' => LaravelHyperf\Support\Facades\Session::class,
-        'Storage' => LaravelHyperf\Support\Facades\Storage::class,
-        'URL' => LaravelHyperf\Support\Facades\URL::class,
-        'Validator' => LaravelHyperf\Support\Facades\Validator::class,
-        'View' => LaravelHyperf\Support\Facades\View::class,
+        'App' => Hypervel\Support\Facades\App::class,
+        'Artisan' => Hypervel\Support\Facades\Artisan::class,
+        'Auth' => Hypervel\Support\Facades\Auth::class,
+        'Blade' => Hypervel\Support\Facades\Blade::class,
+        'Broadcast' => Hypervel\Support\Facades\Broadcast::class,
+        'Bus' => Hypervel\Support\Facades\Bus::class,
+        'Cache' => Hypervel\Support\Facades\Cache::class,
+        'Config' => Hypervel\Support\Facades\Config::class,
+        'Cookie' => Hypervel\Support\Facades\Cookie::class,
+        'Crypt' => Hypervel\Support\Facades\Crypt::class,
+        'Date' => Hypervel\Support\Facades\Date::class,
+        'DB' => Hypervel\Support\Facades\DB::class,
+        'Environment' => Hypervel\Support\Facades\Environment::class,
+        'Event' => Hypervel\Support\Facades\Event::class,
+        'File' => Hypervel\Support\Facades\File::class,
+        'Gate' => Hypervel\Support\Facades\Gate::class,
+        'Hash' => Hypervel\Support\Facades\Hash::class,
+        'Http' => Hypervel\Support\Facades\Http::class,
+        'JWT' => Hypervel\Support\Facades\JWT::class,
+        'Lang' => Hypervel\Support\Facades\Lang::class,
+        'Log' => Hypervel\Support\Facades\Log::class,
+        'Mail' => Hypervel\Support\Facades\Mail::class,
+        'Notification' => Hypervel\Support\Facades\Notification::class,
+        'Process' => Hypervel\Support\Facades\Process::class,
+        'Queue' => Hypervel\Support\Facades\Queue::class,
+        'RateLimiter' => Hypervel\Support\Facades\RateLimiter::class,
+        'Redis' => Hypervel\Support\Facades\Redis::class,
+        'Request' => Hypervel\Support\Facades\Request::class,
+        'Response' => Hypervel\Support\Facades\Response::class,
+        'Route' => Hypervel\Support\Facades\Route::class,
+        'Schedule' => Hypervel\Support\Facades\Schedule::class,
+        'Session' => Hypervel\Support\Facades\Session::class,
+        'Storage' => Hypervel\Support\Facades\Storage::class,
+        'URL' => Hypervel\Support\Facades\URL::class,
+        'Validator' => Hypervel\Support\Facades\Validator::class,
+        'View' => Hypervel\Support\Facades\View::class,
     ],
 ];

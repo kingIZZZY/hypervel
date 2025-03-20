@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel Hyperf</title>
+    <title>Hypervel</title>
     <style>
         html,
         body {
@@ -64,12 +64,12 @@
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="title m-b-md">
-                Laravel Hyperf
+                Hypervel
             </div>
 
             <div class="links">
-                <a href="https://laravel-hyperf.com" target="_blank">Laravel Hyperf</a>
-                <a href="https://github.com/laravel-hyperf/laravel-hyperf" target="_blank">GitHub</a>
+                <a href="https://hypervel.org target="_blank">Hypervel</a>
+                <a href="https://github.com/hypervel/hypervel" target="_blank">GitHub</a>
             </div>
         </div>
     </div>

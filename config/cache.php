@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use LaravelHyperf\Cache\SwooleStore;
-use LaravelHyperf\Support\Str;
+use Hypervel\Cache\SwooleStore;
+use Hypervel\Support\Str;
 
 return [
     /*
@@ -89,5 +89,5 @@ return [
     |
     */
 
-    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel-hyperf'), '_') . '_cache'),
+    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'hypervel'), '_') . '_cache'),
 ];

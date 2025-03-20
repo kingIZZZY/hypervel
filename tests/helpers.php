@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use Hyperf\Testing\ModelFactory;
-use LaravelHyperf\Context\ApplicationContext;
+use Hypervel\Context\ApplicationContext;
 
 if (! function_exists('factory')) {
     function factory(string $class)

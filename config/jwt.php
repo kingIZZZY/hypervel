@@ -10,7 +10,7 @@ return [
     |
     | The driver you are using to encode, decode and sign your
     | JWT token, all the drivers must implement:
-    | LaravelHyperf\JWT\Contracts\ProviderContract::class
+    | Hypervel\JWT\Contracts\ProviderContract::class
     |
     */
 
@@ -133,7 +133,7 @@ return [
     |
     */
 
-    'algo' => env('JWT_ALGO', LaravelHyperf\JWT\Providers\Provider::ALGO_HS256),
+    'algo' => env('JWT_ALGO', Hypervel\JWT\Providers\Provider::ALGO_HS256),
 
     /*
     |--------------------------------------------------------------------------
@@ -144,10 +144,10 @@ return [
     |
     */
     'validations' => [
-        \LaravelHyperf\JWT\Validations\RequiredClaims::class,
-        \LaravelHyperf\JWT\Validations\ExpiredClaim::class,
-        // \LaravelHyperf\JWT\Validations\IssuedAtClaim::class,
-        // \LaravelHyperf\JWT\Validations\NotBeforeCliam::class,
+        \Hypervel\JWT\Validations\RequiredClaims::class,
+        \Hypervel\JWT\Validations\ExpiredClaim::class,
+        // \Hypervel\JWT\Validations\IssuedAtClaim::class,
+        // \Hypervel\JWT\Validations\NotBeforeCliam::class,
     ],
 
     /*
@@ -262,7 +262,7 @@ return [
         |
         */
 
-        'jwt' => LaravelHyperf\JWT\Providers\Lcobucci::class,
+        'jwt' => Hypervel\JWT\Providers\Lcobucci::class,
 
         /*
         |--------------------------------------------------------------------------
@@ -273,6 +273,6 @@ return [
         |
         */
 
-        'storage' => LaravelHyperf\JWT\Storage\TaggedCache::class,
+        'storage' => Hypervel\JWT\Storage\TaggedCache::class,
     ],
 ];

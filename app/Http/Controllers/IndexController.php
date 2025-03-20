@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
-use LaravelHyperf\Http\Request;
+use Hypervel\Http\Request;
 
 class IndexController extends AbstractController
 {
     public function index(Request $request): array
     {
-        $user = $request->input('user', 'Laravel Hyperf');
+        $user = $request->input('user', 'Hypervel');
         $method = $request->getMethod();
 
         return [
