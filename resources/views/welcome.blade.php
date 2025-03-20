@@ -68,7 +68,7 @@
             </div>
 
             <div class="links">
-                <a href="https://hypervel.org target="_blank">Hypervel</a>
+                <a href="https://hypervel.org" target="_blank">Hypervel</a>
                 <a href="https://github.com/hypervel/hypervel" target="_blank">GitHub</a>
             </div>
         </div>
