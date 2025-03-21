@@ -17,7 +17,7 @@ use Hypervel\Support\Facades\Schedule;
 */
 
 Artisan::command('hello', function () {
-    $this->comment('hypervel is awesome!');
-})->describe('This is a demo closure command.');
+    $this->comment('Hypervel is awesome!');
+})->purpose('This is a demo closure command.');
 
 // Schedule::command('hello')->everyFiveSeconds();

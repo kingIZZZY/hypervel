@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Console\Commands;
 
-use Hypervel\Foundation\Console\Command;
+use Hypervel\Console\Command;
 
 class DemoCommand extends Command
 {
